@@ -120,6 +120,24 @@ AnimationClip:
       - serializedVersion: 3
         time: 9.366667
         value: {x: 68.58, y: 9.62, z: 39.12}
+        inSlope: {x: -0.0023288238, y: 1.6019412, z: 0}
+        outSlope: {x: -0.0023288238, y: 1.6019412, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 10.116667
+        value: {x: 68.579, y: 11.5, z: 41.83}
+        inSlope: {x: -0.0025517892, y: 0, z: 0}
+        outSlope: {x: -0.0025517892, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 10.933333
+        value: {x: 67.16, y: 11.29, z: 41.23}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -153,7 +171,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 9.866667
+    m_StopTime: 11.1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -274,6 +292,24 @@ AnimationClip:
       - serializedVersion: 3
         time: 9.366667
         value: 68.58
+        inSlope: -0.0023288238
+        outSlope: -0.0023288238
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 10.116667
+        value: 68.579
+        inSlope: -0.0025517892
+        outSlope: -0.0025517892
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 10.933333
+        value: 67.16
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -392,6 +428,24 @@ AnimationClip:
       - serializedVersion: 3
         time: 9.366667
         value: 9.62
+        inSlope: 1.6019412
+        outSlope: 1.6019412
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 10.116667
+        value: 11.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 10.933333
+        value: 11.29
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -516,6 +570,24 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 10.116667
+        value: 41.83
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 10.933333
+        value: 41.23
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -549,13 +621,6 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 7.4166665
-    functionName: StarDelete
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 7.4166665
     functionName: ChangeColorFail
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -569,14 +634,21 @@ AnimationClip:
     floatParameter: 0
     intParameter: 2
     messageOptions: 0
-  - time: 9.7
+  - time: 10.95
+    functionName: ChangeColorOk
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 1
+    messageOptions: 0
+  - time: 11.083333
     functionName: Finish
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 9.866667
+  - time: 11.1
     functionName: Disable
     data: 
     objectReferenceParameter: {fileID: 0}
